@@ -1,0 +1,80 @@
+========================================================================
+GOOGLE PLAY CONSOLE - GRAPHICS DIMENSIONS & DESIGN BLUEPRINT
+========================================================================
+
+The Google Play Console requires specific graphical assets to publish your app 
+and make it look professional. Below are the exact requirements and design 
+ideas for each asset.
+
+------------------------------------------------------------------------
+1. APP ICON (ऐप आइकॉन)
+------------------------------------------------------------------------
+• Dimensions: 512 x 512 pixels
+• Format: 32-bit PNG (with alpha / transparency support)
+• Max File Size: 1 MB
+• Shape: Google Play automatically applies a squircle mask (rounded square) 
+  to all icons. Keep your key designs within the safe center zone (approx. 80% 
+  of the canvas).
+
+■ Design Blueprint:
+• Background: A solid white or light-gray circle floating on a pristine dark-blue 
+  or tricolor gradient background.
+• Foreground: A highly recognizable vector shape combining a clean paper/folder 
+  icon (representing documents) with a bright teal shield and lock icon 
+  (representing VPN and session security).
+• Saffron/White/Green Accent: A subtle tricolor ribbon or accent on the side 
+  of the folder to associate it directly with Uttar Pradesh (India) state portals.
+
+------------------------------------------------------------------------
+2. FEATURE GRAPHIC (फीचर ग्राफिक)
+------------------------------------------------------------------------
+• Dimensions: 1024 x 500 pixels
+• Format: PNG or 24-bit JPEG (no alpha/transparency allowed)
+• Max File Size: 1 MB
+• Purpose: This is the large promotional banner shown at the top of your 
+  store page on mobile devices and Google Play search results.
+
+■ Design Blueprint:
+• Background: A clean, modern slate-colored or dark navy-blue background 
+  with glowing digital elements.
+• Left Side: The app title "E-Office-UP" in a bold, elegant sans-serif font, 
+  and a short sub-headline: "Secure Gateway for Government Employees".
+• Right Side: A premium smartphone mockup showing the app interface with the 
+  green "🛡️ VPN Connected" badge clearly visible.
+• Trust Badges: Tiny icons depicting "Private Tab Isolation" and "Instant VPN Check" 
+  to establish security credibility instantly.
+
+------------------------------------------------------------------------
+3. PHONE SCREENSHOTS (फ़ोन स्क्रीनशॉट)
+------------------------------------------------------------------------
+• Quantity: Minimum 2 screenshots, Maximum 8 screenshots.
+• Aspect Ratio: 16:9 or 9:16 (Recommended: vertical 9:16 portrait style, 
+  e.g., 1080 x 1920 or 1440 x 2560 pixels).
+• Format: PNG or JPEG
+• Max File Size: 8 MB per screenshot
+
+■ Screenshot Layout Strategy:
+• Screenshot 1: "Secure Landing Dashboard"
+  - Image: Show the app home page highlighting the search bar and the 
+    pre-configured URL.
+  - Text Banner at Top: "Instant Access to UP e-Office districts portal"
+• Screenshot 2: "Smart VPN Detection Status"
+  - Image: Show the active warning status changing to "🛡️ VPN Connected" 
+    when the VPN is enabled on the device.
+  - Text Banner at Top: "Automatic safety check ensures secure connections"
+• Screenshot 3: "Private Mode Session Isolation"
+  - Image: Show the Tab Selector view with two tabs open (Normal tab with 
+    active session, and a separate Private tab representing a fresh session).
+  - Text Banner at Top: "Dual-session support with complete cookie isolation"
+
+------------------------------------------------------------------------
+4. HOW TO CREATE AND EXPORT THESE IMAGES EASILY
+------------------------------------------------------------------------
+• Canva / Figma (Recommended): You can use Canva (free) or Figma to create 
+  a custom canvas with the exact dimensions (e.g., 1024x500 for Feature Graphic).
+• High-Contrast Color Palette: Use a professional color scheme to match 
+  modern Android Material 3 themes:
+  - Deep Blue: #1E293B (Backgrounds)
+  - Saffron Accent: #FF9933
+  - Green Accent: #138808
+  - Accent / Primary: #1E40AF (Sleek Royal Blue)

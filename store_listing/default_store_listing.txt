@@ -1,0 +1,98 @@
+========================================================================
+GOOGLE PLAY STORE - DEFAULT STORE LISTING FOR E-OFFICE-UP
+========================================================================
+
+This document contains the optimized metadata required for publishing the
+"E-Office-UP" application on the Google Play Console. Both English and 
+Hindi translations are provided, as Hindi is highly relevant for government 
+employees in Uttar Pradesh.
+
+------------------------------------------------------------------------
+1. ENGLISH METADATA (अंग्रेजी विवरण)
+------------------------------------------------------------------------
+
+● App Title / Name (Max 50 characters):
+E-Office-UP Secure Browser
+
+● Short Description (Max 80 characters):
+Access UP e-Office securely with VPN detection and private tab isolation.
+
+● Full Description (Max 4000 characters):
+E-Office-UP Secure Browser is a highly optimized, lightweight, and secure web application designed specifically for government employees, officers, and administrators in Uttar Pradesh to access the official e-Office portal (https://districts.upeoffice.gov.in) with maximum security and convenience.
+
+With built-in VPN status verification and advanced multi-profile session isolation, this app ensures a safe browsing experience while maintaining strict confidentiality of government work and portal communications.
+
+★ KEY FEATURES:
+
+1. Direct Portal Access:
+Pre-configured for instant navigation to the UP e-Office Districts Portal (https://districts.upeoffice.gov.in), reducing the hassle of typing long URLs and preventing accidental access to phishing or spoofed websites.
+
+2. Smart VPN Status Indicator:
+The e-Office portal requires a secure Government Virtual Private Network (VPN) connection to function. Our app features a real-time, smart VPN detection engine that prominently displays your connection status:
+• 🛡️ "VPN Connected" (Green indicator) when secure tunnel is detected.
+• ⚠️ "Connect VPN first" (Red warning indicator) if the VPN is inactive, preventing failed connections and securing your network endpoint.
+
+3. Secure Multi-Profile Tab Isolation:
+Need to log in with multiple user accounts or check files in a fresh, clean environment?
+• Use the normal tab for your primary e-Office operations.
+• Open a Private/Incognito Tab to initiate a completely isolated session.
+• Thanks to modern WebView multi-profile technology, cookies, cache, and session logs are not shared between Normal and Private tabs. No more automatic logins across active sessions!
+
+4. Lightweight and High-Performance:
+Built using modern Kotlin and Jetpack Compose on Material Design 3 guidelines. It consumes minimal RAM and storage on your device, ensuring smooth operation even on entry-level smartphones.
+
+5. Privacy-First Architecture:
+We respect the sensitivity of government data. The app is purely a secure gateway browser; it does not collect, log, or transmit your personal data, credentials, or login cookies to any third-party servers.
+
+★ WHO IS THIS APP FOR?
+• Clerks, Assistants, and Administrative Officers of Uttar Pradesh Government.
+• District Magistrates, SDMs, and department heads using e-Office.
+• Any government personnel needing quick, isolated, and verified e-Office access on Android.
+
+■ Disclaimer:
+This application is an independent browser wrapper utility built for accessing public government portals easily. This app is NOT an official app of any government entity and does not represent the Government of India or the Government of Uttar Pradesh. It facilitates easy access to the official portal (https://districts.upeoffice.gov.in) for authenticated users.
+
+------------------------------------------------------------------------
+2. HINDI METADATA (हिंदी विवरण)
+------------------------------------------------------------------------
+
+● App Title / Name (अधिकतम 50 अक्षर):
+E-Office-UP सुरक्षित ब्राउज़र
+
+● Short Description (अधिकतम 80 अक्षर):
+VPN डिटेक्शन और प्राइवेट टैब आइसोलेशन के साथ UP e-Office को सुरक्षित एक्सेस करें।
+
+● Full Description (अधिकतम 4000 अक्षर):
+E-Office-UP सुरक्षित ब्राउज़र एक अत्यंत तेज़, हल्का और सुरक्षित वेब एप्लिकेशन है जिसे विशेष रूप से उत्तर प्रदेश के सरकारी कर्मचारियों, अधिकारियों और प्रशासकों के लिए आधिकारिक ई-ऑफिस पोर्टल (https://districts.upeoffice.gov.in) को अधिकतम सुरक्षा और सुविधा के साथ एक्सेस करने के लिए डिज़ाइन किया गया है।
+
+इन-बिल्ट VPN स्थिति सत्यापन (VPN Status Detection) और उन्नत मल्टी-प्रोफाइल सत्र अलगाव (Multi-Profile Session Isolation) के साथ, यह ऐप सरकारी कामकाज और विभागीय संचार की सख्त गोपनीयता बनाए रखते हुए एक सुरक्षित ब्राउज़िंग अनुभव प्रदान करता है।
+
+★ मुख्य विशेषताएं:
+
+1. सीधा पोर्टल एक्सेस:
+UP ई-ऑफिस डिस्ट्रिक्ट्स पोर्टल (https://districts.upeoffice.gov.in) पर तुरंत नेविगेट करने के लिए पूर्व-कॉन्फ़िगर किया गया है, जिससे लंबे URL टाइप करने की झंझट समाप्त होती है और नकली या फ़िशिंग वेबसाइटों से सुरक्षा मिलती है।
+
+2. स्मार्ट VPN स्टेटस इंडिकेटर:
+ई-ऑफिस पोर्टल को कार्य करने के लिए एक सुरक्षित सरकारी वर्चुअल प्राइवेट नेटवर्क (VPN) कनेक्शन की आवश्यकता होती है। हमारे ऐप में एक रियल-टाइम स्मार्ट VPN डिटेक्शन इंजन है जो आपके कनेक्शन की स्थिति को स्पष्ट रूप से प्रदर्शित करता है:
+• 🛡️ "VPN Connected" (हरा संकेत) जब सुरक्षित सुरंग का पता चलता है।
+• ⚠️ "Connect VPN first" (लाल चेतावनी संकेत) यदि VPN निष्क्रिय है, जो असफल कनेक्शनों को रोकता है और आपके नेटवर्क एंडपॉइंट को सुरक्षित करता है।
+
+3. सुरक्षित मल्टी-प्रोफाइल टैब अलगाव (Session Isolation):
+क्या आपको कई उपयोगकर्ता खातों (Multiple User Accounts) के साथ लॉगिन करने या पूरी तरह से नए सत्र में फाइलें देखने की आवश्यकता है?
+• अपने प्राथमिक ई-ऑफिस संचालन के लिए सामान्य टैब का उपयोग करें।
+• पूरी तरह से अलग सत्र (Isolated Session) शुरू करने के लिए प्राइवेट/इन्कॉग्निटो टैब खोलें।
+• आधुनिक वेबव्यू मल्टी-प्रोफाइल तकनीक के कारण, सामान्य और प्राइवेट टैब्स के बीच कुकीज़, कैश और सत्र लॉग (Session Logs) साझा नहीं होते हैं। अब एक्टिव सत्रों में स्वचालित लॉगिन की समस्या बिल्कुल नहीं!
+
+4. लाइटवेट और उच्च-प्रदर्शन:
+मटीरियल डिज़ाइन 3 (Material 3) के दिशा-निर्देशों पर मॉडर्न कोटलिन (Kotlin) और जेटपैक कंपोज़ (Jetpack Compose) का उपयोग करके निर्मित। यह आपके डिवाइस पर बहुत कम रैम और स्टोरेज की खपत करता है, जिससे सामान्य बजट स्मार्टफ़ोन पर भी यह बेहद सुचारू रूप से चलता है।
+
+5. गोपनीयता-प्रथम आर्किटेक्चर (Privacy-First):
+हम सरकारी डेटा की संवेदनशीलता का पूरा सम्मान करते हैं। यह ऐप पूरी तरह से एक सुरक्षित ब्राउज़र गेटवे है; यह आपके व्यक्तिगत डेटा, क्रेडेंशियल्स या लॉगिन कुकीज़ को किसी भी तीसरे पक्ष (Third-party) के सर्वर पर एकत्र, लॉग या ट्रांसमिट नहीं करता है।
+
+★ यह ऐप किसके लिए उपयोगी है?
+• उत्तर प्रदेश सरकार के लिपिक, सहायक और प्रशासनिक अधिकारी।
+• जिला मजिस्ट्रेट, एसडीएम और ई-ऑफिस का उपयोग करने वाले विभागाध्यक्ष।
+• कोई भी सरकारी कर्मचारी जिसे एंड्रॉइड पर त्वरित, सुरक्षित और सत्यापित ई-ऑफिस पहुंच की आवश्यकता है।
+
+■ अस्वीकरण (Disclaimer):
+यह एप्लिकेशन सार्वजनिक सरकारी पोर्टलों तक आसानी से पहुंचने के लिए बनाया गया एक स्वतंत्र ब्राउज़र उपयोगिता उपकरण (Browser wrapper utility) है। यह ऐप किसी भी सरकारी संस्था का आधिकारिक ऐप नहीं है और यह भारत सरकार या उत्तर प्रदेश सरकार का प्रतिनिधित्व नहीं करता है। यह प्रमाणित उपयोगकर्ताओं के लिए केवल आधिकारिक पोर्टल (https://districts.upeoffice.gov.in) तक आसान पहुंच की सुविधा प्रदान करता है।

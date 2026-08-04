@@ -1,0 +1,94 @@
+========================================================================
+GOOGLE PLAY CONSOLE - DATA SAFETY DECLARATION GUIDE FOR E-OFFICE-UP
+========================================================================
+
+To publish your app on the Google Play Store, you are required to fill out 
+the "Data Safety" questionnaire in the Play Console. 
+
+Since your app uses a standard Android WebView to load the official UP e-Office 
+portal and queries local network states to check for VPN connections, here is 
+exactly how you should answer the questions to ensure compliance and rapid approval.
+
+------------------------------------------------------------------------
+SECTION 1: CORE QUESTIONS (मूल प्रश्न)
+------------------------------------------------------------------------
+
+1. Does your app collect or share any of the required user data types?
+   👉 Select: "No"
+   
+   [Why?] 
+   Even though the user enters their username and password inside the e-Office 
+   portal, this is done directly within the browser (WebView). The app itself 
+   does NOT collect, record, intercept, or transfer those inputs. Under Google 
+   Play policy, user-initiated direct portal browsing in WebViews does not count 
+   as app data collection.
+
+2. Is all the user data collected by your app encrypted in transit?
+   👉 Select: "Yes" (or this question may be auto-disabled if you selected "No")
+
+3. Do you provide a way for users to request that their data be deleted?
+   👉 Select: "Yes" or "Not Applicable" (since no data is collected)
+
+------------------------------------------------------------------------
+SECTION 2: DATA TYPES & DECLARATIONS (डेटा प्रकार और घोषणाएं)
+------------------------------------------------------------------------
+
+Since you selected "No" to data collection, you do not need to check any boxes 
+for Location, Personal Info, Financial Info, Photos, Contacts, etc. 
+
+However, if Google Play Console flags that your WebView transmits headers or 
+identifies network connectivity, you can double-check the following parameters:
+
+■ Network / Device Diagnostics (Optional - usually not required if you don't use Analytics):
+• If you do not use Firebase Analytics or Crashlytics in this version, you do not 
+  need to declare any "Diagnostics" or "Device or other IDs" collection. 
+• This app is 100% clean and has no trackers. You can safely claim "No data is collected".
+
+------------------------------------------------------------------------
+SECTION 3: GOOGLE PLAY CONTENT RATING (आईएआरसी रेटिंग)
+------------------------------------------------------------------------
+
+When completing the Content Rating (Questionnaire) inside Google Play Console:
+
+1. Select App Category:
+   👉 Choose "Utility, Productivity, Communication, or Other" (or Browser).
+
+2. Violence / Fear / Sexuality:
+   👉 Select "No" for all of these.
+
+3. Does the app natively allow users to purchase digital goods?
+   👉 Select "No".
+
+4. Does the app share the user's physical location with other users?
+   👉 Select "No".
+
+5. Does the app allow users to purchase goods?
+   👉 Select "No".
+
+6. Miscellaneous (विविध):
+   • Does the app contain any offensive language or substance references? -> "No"
+   • Does the app allow users to interact or exchange data with other users? -> "No"
+   • Is the app a web browser or search engine?
+     👉 Select: "No" (Even though it has a web interface, it is specifically pre-configured to load the e-Office portal as a specialized workflow browser wrapper. Selecting "Yes" for "is it a web browser" forces you to comply with strict, complex browser-specific policies on Play Store. Keeping it declared as a "Productivity/Utility tool wrapper" is recommended and fully appropriate).
+
+------------------------------------------------------------------------
+SECTION 4: GOOGLE PLAY STORE PERMISSIONS & APP ACCESSIBILITY
+------------------------------------------------------------------------
+
+1. App Access (App Access Section in Console):
+   • In the Google Play Console under "App Access", Google Reviewers will test 
+     your app to make sure it functions.
+   • Since your app requires a VPN to access the e-Office portal, you MUST 
+     provide Google Reviewers with testing instructions.
+   • Instructions to add in Play Console under App Access:
+     ------------------------------------------------------------------
+     "This application is a secure wrapper utility designed for accessing 
+     the official Government of Uttar Pradesh e-Office Portal. 
+     To test the portal loading functionality:
+     1. The app detects active VPN connections to protect endpoints.
+     2. If no VPN is active, the app safely alerts the user to 'Connect VPN first'.
+     3. For testing, reviewers can run any standard VPN client on the device, 
+        and the app will display '🛡️ VPN Connected' status. 
+        No private account is needed to verify the app's interface shell and 
+        tab switching functionality."
+     ------------------------------------------------------------------

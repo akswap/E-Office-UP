@@ -1,0 +1,6 @@
+{
+  "name": "E-Office-UP",
+  "description": "A custom web browser with built-in DNS hosts file resolution mapping. Perfect for connecting to secure websites like eOffice over AnyConnect VPN without root access.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

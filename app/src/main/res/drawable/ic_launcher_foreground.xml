@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Glow Connection Ring representing digital/internet flow around the office -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1E3A8A"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M 33 44 A 20 20 0 1 1 73 44" />
+
+    <!-- Standard White Document representing official office paper/files -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 43,26 H 59 L 65,32 V 57 H 43 Z" />
+
+    <!-- Dark Blue Folded Corner page accent for extra depth and styling -->
+    <path
+        android:fillColor="#1E3A8A"
+        android:pathData="M 59,26 V 32 H 65 Z" />
+
+    <!-- Dark Blue text lines on physical document inside representing information/data -->
+    <path
+        android:strokeColor="#1E3A8A"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M 47,38 H 61 M 47,44 H 61 M 47,50 H 55" />
+
+    <!-- Stylized "eOffice" text made of perfect mathematical vector strokes -->
+    <group
+        android:name="eOffice_text_group"
+        android:pivotX="54"
+        android:pivotY="68"
+        android:scaleX="1.35"
+        android:scaleY="1.35">
+        
+        <!-- e -->
+        <path
+            android:strokeColor="#1E3A8A"
+            android:strokeWidth="2.0"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000"
+            android:pathData="M 40.9,68.9 H 37.0 A 2.5,2.5 0 1,1 40.2,67.1" />
+            
+        <!-- o -->
+        <path
+            android:strokeColor="#1E3A8A"
+            android:strokeWidth="2.0"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000"
+            android:pathData="M 45.4,66.4 A 2.5,2.5 0 1,1 45.3,66.4" />
+            
+        <!-- f -->
+        <path
+            android:strokeColor="#1E3A8A"
+            android:strokeWidth="2.0"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000"
+            android:pathData="M 52.1,65.7 A 1.0,1.0 0 0,0 51.0,64.7 V 71.3 M 49.6,66.8 H 52.1" />
+            
+        <!-- f -->
+        <path
+            android:strokeColor="#1E3A8A"
+            android:strokeWidth="2.0"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000"
+            android:pathData="M 56.3,65.7 A 1.0,1.0 0 0,0 55.2,64.7 V 71.3 M 53.8,66.8 H 56.3" />
+            
+        <!-- i -->
+        <path
+            android:strokeColor="#1E3A8A"
+            android:strokeWidth="2.0"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000"
+            android:pathData="M 58.7,66.8 V 71.3 M 58.7,64.7 H 58.75" />
+            
+        <!-- c -->
+        <path
+            android:strokeColor="#1E3A8A"
+            android:strokeWidth="2.0"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000"
+            android:pathData="M 64.7,67.1 A 2.5,2.5 0 1,0 64.7,70.6" />
+            
+        <!-- e -->
+        <path
+            android:strokeColor="#1E3A8A"
+            android:strokeWidth="2.0"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:fillColor="#00000000"
+            android:pathData="M 71.0,68.9 H 67.1 A 2.5,2.5 0 1,1 70.3,67.1" />
+    </group>
+
+</vector>
