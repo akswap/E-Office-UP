@@ -49,7 +49,7 @@ The UP district e-Office dashboard successfully loads in the same browser sessio
 The current tested deployment is designed around these VPN clients:
 
 ```text
-AnyConnect VPN
+Cisco AnyConnect VPN
 MotionPro Global VPN
 ```
 
