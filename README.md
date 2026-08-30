@@ -4,7 +4,7 @@ A focused Android browser for **UP e-Office / district e-Office / Parichay-style
 
 > **Status:** Current UI testing confirms successful UP e-Office portal loading over a supported VPN, integrated PDF download management, offline access to downloaded documents, and multi-profile browser sessions.
 
-> **VPN requirement:** In the current tested setup, e-Office access through this app is intended to work with **AntConnect VPN** or **MotionPro Global VPN**. Other VPN clients are not part of the supported/tested configuration for this project.
+> **VPN requirement:** In the current tested setup, e-Office access through this app is intended to work with **AnyConnect VPN** or **MotionPro Global VPN**. Other VPN clients are not part of the supported/tested configuration for this project.
 
 ---
 
@@ -15,7 +15,7 @@ Recent on-device tests show the following working inside the app:
 | Feature | Current proof |
 |---|---|
 | UP district e-Office portal | ✅ Successfully loaded inside the app |
-| Supported VPN path | ✅ AntConnect VPN / MotionPro Global VPN |
+| Supported VPN path | ✅ AnyConnect VPN / MotionPro Global VPN |
 | VPN awareness | ✅ `VPN ACTIVE` shown in the browser UI |
 | eFile / KMS / Mail / Tasks portal UI | ✅ Portal dashboard rendered |
 | PDF downloads | ✅ Completed PDF shown in built-in Downloads panel |
@@ -49,7 +49,7 @@ The UP district e-Office dashboard successfully loads in the same browser sessio
 The current tested deployment is designed around these VPN clients:
 
 ```text
-AntConnect VPN
+AnyConnect VPN
 MotionPro Global VPN
 ```
 
@@ -118,7 +118,7 @@ The current test capture shows:
 - `VPN ACTIVE` in the browser header
 - the district e-Office portal loaded inside the application
 - eFile, KMS, Mail, Tasks, Notes and other portal areas rendered
-- operation through the project's supported VPN setup (AntConnect VPN / MotionPro Global VPN)
+- operation through the project's supported VPN setup (AnyConnect VPN / MotionPro Global VPN)
 
 ### 2. Download manager proof
 
@@ -184,7 +184,7 @@ The current proof collage was intentionally prepared with these areas obscured.
 
 ## ⚠️ Scope
 
-This project is a browser/client utility. It does not replace the official e-Office service, **AntConnect VPN / MotionPro Global VPN**, SSO identity provider or departmental access controls. Users still need valid authorization and normal credentials for the systems they access.
+This project is a browser/client utility. It does not replace the official e-Office service, **AnyConnect VPN / MotionPro Global VPN**, SSO identity provider or departmental access controls. Users still need valid authorization and normal credentials for the systems they access.
 
 A VPN being shown as active is not, by itself, a guarantee that e-Office will be reachable. The VPN must provide the authorized network path required by the e-Office deployment.
 
